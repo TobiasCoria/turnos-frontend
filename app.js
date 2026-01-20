@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5176/api/turnos";
+const API_URL = "https://turnos-api-6.onrender.com/api/turnos";
 
 async function createAppointment() {
     const client = document.getElementById("client").value;
