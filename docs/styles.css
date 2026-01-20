@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(10, 6, 62);
+    color: #ffffff;
+}
+
+.container {
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 600;
+    font-family: apple-system;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 40px;
+    color: #e4e4e4;
+    font-family: calibri;
+}
+
+.card {
+    background-color: #000000;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+h2 {
+    margin-top: 0;
+    font-weight: 500;
+    font-family: apple-system;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: #000000;
+    color: #e5e7eb;
+    outline: none;
+    border: 1px solid #1e293b;
+}
+
+input:focus {
+    border-color: rgb(186, 14, 14);
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: #fbfeff;
+    color: #000000;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2461c3;
+}
+
+#message {
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    margin-bottom: 8px;
+    background-color: #000000;
+    border-radius: 8px;
+    border: 1px solid #1e293b;
+}
+
+/* HEADER CARD */
+.header-card {
+    background: linear-gradient(135deg, #000000, #072b61);
+    border-radius: 16px;
+    padding: 25px 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    border: 1px solid rgba(255, 0, 0, 0.3);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+}
+
+.header-card h1 {
+    margin: 0;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+.header-card h3 {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: #cfcfcf;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.actions button {
+    width: 100%;
+}
